@@ -58,11 +58,8 @@ The dashboard combines KPI cards, trend analysis, geographic mapping, drill-thro
 | Dataset | Microsoft AdventureWorks sample (2020–2022) |
 
 ## Files
-| File | Description |
-|------|-------------|
-| `AdventureWorks_Sales_Dashboard.pbix` | Full Power BI dashboard — download to explore |
-| `images/` | Dashboard and data model screenshots |
-| `README.md` | Project documentation |
+[Power BI Dashboard](AdventureWorks_Sales_Dashboard.pbix): Full Power BI dashboard — download to explore 
+[Screenshots](images/): Dashboard and data model screenshots
 
 ## Contact
 
