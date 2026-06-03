@@ -1,7 +1,5 @@
 # AdventureWorks Sales Performance Dashboard
 
-### Power BI | DAX | Data Modeling | Business Intelligence
-
 ## Overview
 Interactive Power BI dashboard built using the AdventureWorks dataset to analyze sales performance, profitability, customer behavior.
 
@@ -22,20 +20,20 @@ AdventureWorks is a fictional global retail company selling bikes, accessories, 
 - Bikes generated the highest contribution to overall profit.
 - Product returns remained relatively low at 2.2%, helping maintain profitability.
 - Revenue growth accelerated during the second half of the reporting period.
-- A small segment of high-income, professional customers (management/professional occupations) generates a disproportionate share of revenue.
+- Customers in management and professional occupations contribute a large share of revenue.
 
 ## Technical Approach
 
 ### Data Modeling
-A star schema was designed with separate fact tables for sales and returns, connected to shared dimension tables for products, customers, and dates. This structure keeps relationships clean, avoids row-level conflicts between the two fact tables, and ensures DAX measures calculate accurately across any filter context.
+A star schema was built using separate sales and returns fact tables connected to shared product, customer, and date dimensions. This structure supports consistent filtering and simplifies DAX calculations across the model.
 
 ![Data Model](images/Data_Modeling.png)
 
 ### Data Analysis Expressions (DAX)
-Measures were built across three layers: base aggregations (total revenue, total orders, total returns), ratio metrics (return rate, profit margin), and time-intelligence calculations (monthly trends, rolling 90-day revenue). Calculated columns were used only when necessary, with most business logic implemented as measures to maintain model efficiency and flexibility.
+DAX measures were created for revenue, profit, orders, returns, return rate, and time-based analysis. Most business logic was implemented as measures rather than calculated columns to keep the model flexible and easier to maintain.
 
 ### Visualizations
-Each dashboard page was designed around a specific decision-making need rather than just displaying available data. KPI cards use conditional formatting to signal above/below-target performance at a glance. The product detail page uses gauge visuals and drill-through to let users move from high-level rankings to individual product performance without cluttering the main view.
+The dashboard combines KPI cards, trend analysis, geographic mapping, drill-through navigation, and customer segmentation visuals. Each page focuses on a different area of analysis, allowing users to move from high-level performance metrics to detailed product and customer insights.
 
 ## Dashboard Pages
 1. Executive Summary — High-level KPI cards, a 30-month revenue trend line, and top-10 product rankings
