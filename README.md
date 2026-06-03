@@ -1,7 +1,7 @@
 # AdventureWorks Sales Performance Dashboard
 
 ## Overview
-Interactive Power BI dashboard built using the AdventureWorks dataset to analyze sales performance, profitability, customer behavior.
+Interactive Power BI dashboard built using the AdventureWorks dataset to analyze sales performance, profitability, product performance, customer behavior.
 
 ## Dashboard Preview
 ![Executive Summary](images/Executive_Summary.png)
@@ -58,6 +58,7 @@ The dashboard combines KPI cards, trend analysis, geographic mapping, drill-thro
 | Dataset | Microsoft AdventureWorks sample (2020–2022) |
 
 ## Files
+
 [Power BI Dashboard](AdventureWorks_Sales_Dashboard.pbix): Full Power BI dashboard 
 
 [Screenshots](images/): Dashboard and data model screenshots
@@ -65,5 +66,5 @@ The dashboard combines KPI cards, trend analysis, geographic mapping, drill-thro
 ## Contact
 
 **Amirabas Ziaee**
-- Linkedin: https://www.linkedin.com/in/amirabasziaee
+- LinkedIn: https://www.linkedin.com/in/amirabasziaee
 - Email: aaziaee04@gmail.com
