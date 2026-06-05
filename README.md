@@ -1,7 +1,7 @@
 # AdventureWorks Sales Performance Dashboard
 
 ## Overview
-Interactive Power BI dashboard built using the AdventureWorks dataset to analyze sales performance, profitability, product performance, customer behavior.
+Interactive Power BI dashboard built using the AdventureWorks dataset to analyze sales performance, profitability, product performance and customer behavior.
 
 ## Dashboard Preview
 ![Executive Summary](images/Executive_Summary.png)
